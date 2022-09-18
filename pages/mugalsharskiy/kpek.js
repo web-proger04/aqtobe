@@ -1,26 +1,25 @@
 import React from 'react';
-import kpek from '../../public/kpek.png'
-import kpekDirector from '../../public/kpekDirector.png'
-import styles from '../../styles/kpek.module.scss'
+import collegePhoto from '../../public/img/colleges/kpek.png'
+import directorPhoto from '../../public/img/directors/kpekDirector.png'
 import Image from "next/image";
 import Link from "next/link";
 
 function Kpek(props) {
     return (
-        <div className={styles.kpek}>
-            <div className={styles.name}>ГККП «Кандыагашский промышленно-экономический колледж»</div>
+        <div className="collegeContainer">
+            <div className="name">ГККП «Кандыагашский промышленно-экономический колледж»</div>
 
-            <div className={styles.info}>
-                <div className={styles.college}>
-                    <div className={styles.imageContainer}>
-                        <Image src={kpek} layout="fill" className={styles.image} />
+            <div className="info">
+                <div className="college">
+                    <div className="imageContainer">
+                        <Image src={collegePhoto} layout="fill" className="image"/>
                     </div>
-                    <div className={styles.text}>
+                    <div className="text">
                         <ul>
                             <li><strong>Год образования: </strong>1946 г.</li>
                             <li><strong>Форма собственности: </strong>Государственная</li>
                             <li><strong>Адрес: </strong>г.Кандыагаш, ул.Құндызды, 1</li>
-                            <li><strong>Сайт: </strong><Link href={"www.kpek.kz"}>www.kpek.kz</Link></li>
+                            <li><strong>Сайт: </strong>www.kpek.kz</li>
                             <li><strong>Е-mail: </strong>kpek2012@mail.ru</li>
                             <li><strong>Телефон: </strong>+7(713) 337 2377</li>
                             <li><strong>Направление: </strong>Техническое</li>
@@ -28,11 +27,11 @@ function Kpek(props) {
                         </ul>
                     </div>
                 </div>
-                <div className={styles.director}>
-                    <div className={styles.imageContainer}>
-                        <Image src={kpekDirector} layout="fill" className={styles.image} />
+                <div className="director">
+                    <div className="imageContainer">
+                        <Image src={directorPhoto} layout="fill" className="image" />
                     </div>
-                    <div className={styles.text}>
+                    <div className="text">
                         <ul>
                             <li><strong>ФИО: </strong>Байбулов Бек Аманович</li>
                             <li><strong>Дата рождения: </strong>5 января 1969 года</li>
@@ -45,15 +44,15 @@ function Kpek(props) {
                 </div>
             </div>
 
-            <div className={styles.about}>
-                <div className={styles.title}>О колледже</div>
+            <div className="about">
+                <div className="title">О колледже</div>
                 <ul>
-                    <li className={styles.disc}><strong>Контингент обучающихся: </strong>267 человек (из них по госзаказу 267 чел.).</li>
-                    <li className={styles.disc}><strong>Прием: </strong>88 чел., по госзаказу - 88чел.</li>
-                    <li className={styles.disc}><strong>Выпуск: </strong>107 чел., по госзаказу – 107 чел.</li>
-                    <li className={styles.disc}><strong>Трудоустройство: </strong>87% (по данным ГЦВП).</li>
-                    <li className={styles.disc}><strong>Педагогических работников: </strong>35 человек.</li>
-                    <li className={styles.disc}><strong>Качество педагогических работников:</strong>
+                    <li className="disc"><strong>Контингент обучающихся: </strong>267 человек (из них по госзаказу 267 чел.).</li>
+                    <li className="disc"><strong>Прием: </strong>88 чел., по госзаказу - 88чел.</li>
+                    <li className="disc"><strong>Выпуск: </strong>107 чел., по госзаказу – 107 чел.</li>
+                    <li className="disc"><strong>Трудоустройство: </strong>87% (по данным ГЦВП).</li>
+                    <li className="disc"><strong>Педагогических работников: </strong>35 человек.</li>
+                    <li className="disc"><strong>Качество педагогических работников:</strong>
                         <ol>
                             <li><strong>педагог исследователь: </strong>5</li>
                             <li><strong>высшая категория: </strong>5 (14,2%)</li>
@@ -62,23 +61,23 @@ function Kpek(props) {
                     </li>
                 </ul>
                 <ul>
-                    <li className={styles.circle}>В колледже есть медицинский пункт.</li>
-                    <li className={styles.circle}>Столовая на 80 мест, оборудованная современным кухонным оборудованием.</li>
-                    <li className={styles.circle}>Конференц-зал с мультимедийным оборудованием и проектором для проведения различных семинаров и занятий.</li>
-                    <li className={styles.circle}>Есть адаптированный спортзал и борцовский зал.</li>
+                    <li className="circle">В колледже есть медицинский пункт.</li>
+                    <li className="circle">Столовая на 80 мест, оборудованная современным кухонным оборудованием.</li>
+                    <li className="circle">Конференц-зал с мультимедийным оборудованием и проектором для проведения различных семинаров и занятий.</li>
+                    <li className="circle">Есть адаптированный спортзал и борцовский зал.</li>
                 </ul>
 
                 <ul>
-                    <li className={styles.disc}><strong>Сведение по общежитию:</strong> адаптированное общежитие на 40 мест.</li>
-                    <li className={styles.disc}><strong>Условия общежития: </strong>интернет, читальный зал, прачечная, комната отдыха, столовая на 12 мест</li>
+                    <li className="disc"><strong>Сведение по общежитию:</strong> адаптированное общежитие на 40 мест.</li>
+                    <li className="disc"><strong>Условия общежития: </strong>интернет, читальный зал, прачечная, комната отдыха, столовая на 12 мест</li>
                 </ul>
 
                 <ul>
-                    <li className={styles.circle}><strong>Планируется: </strong>согласно профилизации изменить название колледжа – Кандыагашский промышленно-технический колледж</li>
+                    <li className="circle"><strong>Планируется: </strong>согласно профилизации изменить название колледжа – Кандыагашский промышленно-технический колледж</li>
                 </ul>
             </div>
 
-            <div className={styles.table}>
+            <div className="table">
                 <h3>Подготовка кадров ведется по 9 специальностям: </h3>
                 <div className="wrapper">
                     <div className="box"><strong>№</strong></div>

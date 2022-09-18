@@ -16,8 +16,11 @@
     }
 
     .navigation {
+      display: flex;
+      align-items: center;
       a {
         margin-left: 15px;
+        color: #fff;
       }
     }
   }
