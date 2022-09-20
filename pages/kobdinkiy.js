@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Hobdinkiy(props) {
+function Kobdinkiy(props) {
     return (
         <div>ГККП «Кобдинский многопрофильный колледж»</div>
     );
 }
 
-export default Hobdinkiy;
+export default Kobdinkiy;
