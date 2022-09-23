@@ -181,9 +181,7 @@ export default function Home() {
 
             <div className="oblastInfo">
                 <h3>Актюбинская область</h3>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at cupiditate ducimus et eveniet
-                    exercitationem harum iste itaque libero magni nemo, nesciunt nihil numquam officiis, placeat quas
-                    repudiandae sint, ut!</h4>
+                <h4>jtydytytdut</h4>
                 <div className="miniInfo" hidden={inHover}>
                     <p className="name">{info.name}</p>
                     <p className="km">{info.km} км до районного центра</p>
