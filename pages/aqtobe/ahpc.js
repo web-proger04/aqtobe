@@ -4,6 +4,7 @@ import directorPhoto from '../../public/img/directors/ahpcDirector.png'
 import Image from "next/image";
 import Link from "next/link";
 
+Kpek.title = "AHPC" // вот так добавляешь название странице
 function Kpek(props) {
     return (
         <div className="collegeContainer">
