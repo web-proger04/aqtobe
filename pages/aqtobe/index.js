@@ -1,6 +1,10 @@
 import React from 'react';
 import Link from "next/link";
 import ahpc from '../../public/img/colleges/ahpc.png'
+import ashk from "../../public/img/colleges/ashk-college.png";
+import aksib from "../../public/img/colleges/aksid.png"
+import ahmc from  "../../public/img/colleges/ahmc.png"
+import aadk from "../../public/img/colleges/aadk.png";
 
 Aqtobe.title="Актобе"
 function Aqtobe(props) {
@@ -24,12 +28,12 @@ function Aqtobe(props) {
                 </article>
                 <article className="card">
                     <div className="card-image">
-                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                        <img src={ashk.src} alt="ГККП Актюбинский высший сельскохозяйственный колледж имени Шыганак Берсиева"/>
                     </div>
                     <div className="card-title">
-                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                        ГККП "Актюбинский высший сельскохозяйственный колледж имени Шыганак Берсиева"
                     </div>
-                    <Link href={"/aqtobe/ahpc"}>
+                    <Link href={"/aqtobe/ashk"}>
                         <a className="card-button">
                             Перейти
                         </a>
@@ -37,12 +41,12 @@ function Aqtobe(props) {
                 </article>
                 <article className="card">
                     <div className="card-image">
-                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                        <img src={aksib.src} alt="ГККП «Актюбинский колледж строительства и бизнеса»"/>
                     </div>
                     <div className="card-title">
-                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                        ГККП «Актюбинский колледж строительства и бизнеса»
                     </div>
-                    <Link href={"/aqtobe/ahpc"}>
+                    <Link href={"/aqtobe/aksib"}>
                         <a className="card-button">
                             Перейти
                         </a>
@@ -50,12 +54,12 @@ function Aqtobe(props) {
                 </article>
                 <article className="card">
                     <div className="card-image">
-                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                        <img src={ahmc.src} alt="ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой»»"/>
                     </div>
                     <div className="card-title">
-                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                        ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой» на ПХВ
                     </div>
-                    <Link href={"/aqtobe/ahpc"}>
+                    <Link href={"/aqtobe/ahmc"}>
                         <a className="card-button">
                             Перейти
                         </a>
@@ -63,12 +67,12 @@ function Aqtobe(props) {
                 </article>
                 <article className="card">
                     <div className="card-image">
-                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                        <img src={aadk.src} alt="ГККП «Актюбинский автомобильно-дорожный колледж»"/>
                     </div>
                     <div className="card-title">
-                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                        ГККП «Актюбинский автомобильно-дорожный колледж» на ПХВ
                     </div>
-                    <Link href={"/aqtobe/ahpc"}>
+                    <Link href={"/aqtobe/aadk"}>
                         <a className="card-button">
                             Перейти
                         </a>
