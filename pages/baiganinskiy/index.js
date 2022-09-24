@@ -1,21 +1,21 @@
 import React from 'react';
+import baiganinСollege from "../../public/img/colleges/baiganin-college.png";
 import Link from "next/link";
-import aitekebiyskiyCollege from "../../public/img/colleges/AitekeMk1974.png";
 
 
-Aitekebiyskiy.title = "ГККП «Айтекебииский многпрофильный колледж»"
-function Aitekebiyskiy(props) {
+Baiganinskiy.title = "Байганинский район"
+function Baiganinskiy(props) {
     return (
         <div>
             <div className="colleges">
-                <h2 className="header-title">Айтекебииский район</h2>
+                <h2 className="header-title">Байганинский район</h2>
                 <div className="cards">
                     <article className="card">
                         <div className="card-image">
-                            <img src={aitekebiyskiyCollege.src} alt="ГККП «Айтекебииский многпрофильный колледж»"/>
+                            <img src={baiganinСollege.src} alt="КГУ «Байганинский технический колледж»"/>
                         </div>
                         <div className="card-title">
-                            ГККП «Айтекебииский многпрофильный колледж»
+                            КГУ «Байганинский технический колледж»
                         </div>
                         <Link href={"/baiganinskiy/baiganin-college"}>
                             <a className="card-button">
@@ -29,4 +29,4 @@ function Aitekebiyskiy(props) {
     );
 }
 
-export default Aitekebiyskiy;
+export default Baiganinskiy;

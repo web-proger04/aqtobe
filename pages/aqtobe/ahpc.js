@@ -1,10 +1,6 @@
 import React from 'react';
-import collegePhoto from '../../public/img/colleges/ahpc.png'
-import directorPhoto from '../../public/img/directors/ahpcDirector.png'
-import Image from "next/image";
-import Link from "next/link";
-import ahpc from "../../public/img/colleges/ahpc.png";
-import ahpcDirector from "../../public/img/directors/ahpcDirector.png"
+import college from "../../public/img/colleges/ahpc.png";
+import director from "../../public/img/directors/ahpcDirector.png"
 
 Ahpc.title = "ГКП «Актюбинский Высший политехнический колледж» на ПХВ" // вот так добавляешь название странице
 function Ahpc(props) {
@@ -16,7 +12,7 @@ function Ahpc(props) {
             <ul className="info-college">
                 <li className="info-college__item">
                     <div className="info-college__image info-college__image_college">
-                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                        <img src={college.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
                     </div>
                     <ul className="info-college__list">
                         <li className="info-college__text">
@@ -41,7 +37,7 @@ function Ahpc(props) {
                 </li>
                 <li className="info-college__item">
                     <div className="info-college__image info-college__image_director">
-                        <img src={ahpcDirector.src} alt="Мухамбетпаизова Женискул Сагидоллаевна"/>
+                        <img src={director.src} alt="Мухамбетпаизова Женискул Сагидоллаевна"/>
                     </div>
                     <ul className="info-college__list">
                         <li className="info-college__text">

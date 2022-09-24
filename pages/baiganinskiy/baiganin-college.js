@@ -1,63 +1,69 @@
 import React from 'react';
-import college from "../../public/img/colleges/AitekeMk1974.png";
-import director from "../../public/img/directors/AitekeMk1974.png";
+import college from "../../public/img/colleges/baiganin-college.png";
+import director from "../../public/img/directors/baiganin-college.png"
 
-
-AitekeMk1974.title = "ГККП «Айтекебииский многпрофильный колледж»"
-export default function AitekeMk1974(props) {
+BaiganinСollege.title = "КГУ «Байганинский технический колледж»" // вот так добавляешь название странице
+function BaiganinСollege(props) {
     return (
         <div className="collegeContainer">
             <h2 className="header-title">
-                ГККП «Айтекебииский многпрофильный колледж»
+                ГКП «Актюбинский Высший политехнический колледж» на ПХВ
             </h2>
             <ul className="info-college">
                 <li className="info-college__item">
                     <div className="info-college__image info-college__image_college">
-                        <img src={college.src} alt="ГККП «Айтекебииский многпрофильный колледж»"/>
+                        <img src={college.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
                     </div>
                     <ul className="info-college__list">
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Год образования:</span> 1974 г.
+                            <span className="info-college__text_bold">Год образования:</span> 1960 г.
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Адрес:</span> Айтекебииский район ул. Ы.Алтынсарина, 14
+                            <span className="info-college__text_bold">Форма собственности:</span> государственная
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Е-mail:</span> aiteke_2013@mail.ru
+                            <span className="info-college__text_bold">Адрес:</span> с. Карауылкелды, ул.Барак батыра,
+                            46.
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Телефон:</span> 8 (71339) 21728
+                            <span className="info-college__text_bold">Сайт:</span> www.baiganin-college.kz
+                        </li>
+                        <li className="info-college__text">
+                            <span className="info-college__text_bold">Е-mail:</span> baiganin_college@mail.ru
+                        </li>
+                        <li className="info-college__text">
+                            <span className="info-college__text_bold">Телефон:</span> 8 (71345) 22185, 22994
                         </li>
                     </ul>
                 </li>
                 <li className="info-college__item">
                     <div className="info-college__image info-college__image_director">
-                        <img src={director.src} alt="Ахметова Нургул Жалгабаевна"/>
+                        <img src={director.src} alt="Мухамбетпаизова Женискул Сагидоллаевна"/>
                     </div>
                     <ul className="info-college__list">
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">ФИО:</span> Жиенкожаев Махсут Самуратович
+                            <span className="info-college__text_bold">ФИО:</span> Абат Қасен Абатұлы
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Дата рождения:</span> Жиенкожаев Махсут Самуратович
+                            <span className="info-college__text_bold">Дата рождения:</span> 5 августа 1961 года
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Образование:</span> Инженер-механик подъемно -транспортных  и строительных машин и оборудования
+                            <span className="info-college__text_bold">Образование:</span> Учитель математики
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Общий стаж работы:</span> 39 лет
+                            <span className="info-college__text_bold">Общий стаж работы:</span> 40 лет
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Педагогический стаж:</span> 27 год
+                            <span className="info-college__text_bold">Педагогический стаж:</span> 40 лет
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Стаж в данной организации:</span> 6 месяцев
+                            <span className="info-college__text_bold">Стаж в данной организации:</span>19 лет
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Аттестацию не проходил</span>
+                            <span className="info-college__text_bold">ПАттестацию не проходил</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Ротации не подлежит  </span>
+                            <span className="info-college__text_bold">Ротации не подлежит </span>
                         </li>
                     </ul>
                 </li>
@@ -67,22 +73,23 @@ export default function AitekeMk1974(props) {
                     </h3>
                     <ul className="info-college__list">
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Проектная мощность:</span> 300 мест, приспособленное здание
+                            <span className="info-college__text_bold">Проектная мощность:</span> 150 мест, располагается в  приспособленном здание
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Контингент обучающихся:</span> 193 студента
+                            <span className="info-college__text_bold">Контингент обучающихся:</span> 140 студентов
+                        </li>
+
+                        <li className="info-college__text">
+                            <span className="info-college__text_bold">Прием:</span> 85 студентов
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Прием:</span> 100 студентов.
+                            <span className="info-college__text_bold">Выпуск:</span> 43 студентов
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Выпуск:</span> 48  студентов
+                            <span className="info-college__text_bold">Трудоустройство:</span> 75,1%
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Трудоустройство:</span> 69% (по данным ГЦВП- 65%)
-                        </li>
-                        <li className="info-college__text">
-                            <span className="info-college__text_bold">Педагогических работников:</span> 29 человек.
+                            <span className="info-college__text_bold">Педагогические кадры:</span> 22 педагогов
                         </li>
                     </ul>
                     <ul className="info-college__list">
@@ -90,34 +97,28 @@ export default function AitekeMk1974(props) {
                             <span className="info-college__text_bold">Материально-техническая база:</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Общая площадь:</span>3764 кв метра
+                            <span className="info-college__text_bold">Общая площадь:</span> 4245 кв.м. (в т.ч. учебная - 1194,0 кв.м).
                         </li>
                         <li className="info-college__text">
                             <span className="info-college__text_bold">Количество учебных кабинетов:</span> 14
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Лабораторий:</span> 1
+                            <span className="info-college__text_bold">Лабораторий:</span> 3
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Мастерских:</span> 5
+                            <span className="info-college__text_bold">Мастерских:</span> 4
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Автодром:</span> 1
+                            <span className="info-college__text_bold">Спорт зал:</span> 592 кв.м
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Спорт зал:</span> 152 кв.м
-                        </li>
-                        <li className="info-college__text">
-                            <span className="info-college__text_bold">Актовый зал:</span> 150 посадочных мест
+                            <span className="info-college__text_bold">Актовый зал:</span> 80 посадочных мест
                         </li>
                         <li className="info-college__text">
                             <span className="info-college__text_bold">Медицинский пункт</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Столовая:</span> 120 кв. метра
-                        </li>
-                        <li className="info-college__text">
-                            <span className="info-college__text_bold">Общежитие:</span> адаптированное  на 50 мест
+                            <span className="info-college__text_bold">Столовая</span>
                         </li>
                     </ul>
                 </li>
@@ -130,16 +131,16 @@ export default function AitekeMk1974(props) {
                             <span className="info-college__text_bold">Механизация сельского хозяйства</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Сварочное дело </span>
+                            <span className="info-college__text_bold">Строительство и эксплуатация зданий и сооружений</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Электрооборудование (по видам и отраслям) </span>
+                            <span className="info-college__text_bold">Сварочное дело (по видам)</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Монтаж и эксплуатация оборудования и систем газоснабжения </span>
+                            <span className="info-college__text_bold">Учет и аудит</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Вычислительная техника и информационные сети (по видам)</span>
+                            <span className="info-college__text_bold">Швейное производство и моделирование одежды</span>
                         </li>
                         <li className="info-college__text">
                             <span className="info-college__text_bold">Организация питания</span>
@@ -160,13 +161,13 @@ export default function AitekeMk1974(props) {
                             <span className="info-college__text_bold">Механизация сельского хозяйства</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Сварочное дело </span>
+                            <span className="info-college__text_bold">Строительство и эксплуатация зданий и сооружений</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Электрооборудование (по видам и отраслям) </span>
+                            <span className="info-college__text_bold">Сварочное дело (по видам)</span>
                         </li>
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Монтаж и эксплуатация оборудования и систем газоснабжения  </span>
+                            <span className="info-college__text_bold">Швейное производство и моделирование одежды</span>
                         </li>
                         <li className="info-college__text">
                             <span className="info-college__text_bold">Организация питания</span>
@@ -179,7 +180,7 @@ export default function AitekeMk1974(props) {
                     </h3>
                     <ul className="info-college__list">
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Вычислительная техника и информационные сети (по видам)</span>
+                            <span className="info-college__text_bold">Учет и аудит</span>
                         </li>
                     </ul>
                 </li>
@@ -189,7 +190,8 @@ export default function AitekeMk1974(props) {
                     </h3>
                     <ul className="info-college__list">
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Квалификацию «Мастер по ремонту сельскохозяйственной техники» по специальности - Механизация сельского хозяйства</span>
+                            <span
+                                className="info-college__text_bold">Квалификацию «Мастер по ремонту сельскохозяйственной техники» по специальности - Механизация сельского хозяйства</span>
                         </li>
                         <li className="info-college__text">
                             <span className="info-college__text_bold">Эксплуатация, техническое обслуживание и ремонт сельскохозяйственной техники</span>
@@ -200,3 +202,5 @@ export default function AitekeMk1974(props) {
         </div>
     );
 }
+
+export default BaiganinСollege;

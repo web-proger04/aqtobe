@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className={styles.navbar}>
             <div className={styles.container}>
-                <div className={styles.logo}>ТиПо Актюбинской области</div>
+                <div className={styles.logo}><Link href={"/"}>ТиПо Актюбинской области</Link></div>
 
                 <div className={styles.navigation}>
                     <Link href={"/"}>Главная</Link>

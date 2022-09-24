@@ -131,6 +131,10 @@ path {
     fill: rgba(20, 0, 255, 0.09);
 }
 
+.notactive:active {
+    fill: rgba(20, 0, 255, 0.06);
+}
+
 /* End Aqtobe Zone*/
 
 
