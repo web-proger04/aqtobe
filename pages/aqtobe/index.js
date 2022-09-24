@@ -5,228 +5,75 @@ import ahpc from '../../public/img/colleges/ahpc.png'
 function Aqtobe(props) {
 
     return (
-
         <div className="colleges">
-                <h2>Выберите колледж</h2>
-                <div className="cards">
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский гуманитарный колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский колледж транспорта, коммуникаций и новых технологий»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/ahpc'}>
-                                <a className="card">
-                                        <img src={ahpc.src} alt=""/>
-                                        <div className="name">ГКП «Актюбинский Высший политехнический колледж» на ПХВ</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский Высший сельскохозяйственный колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой» на ПХВ</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский музыкальный колледж им. А. Жубанова»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский колледж связи и электротехники»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский колледж строительства и бизнеса»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский колледж промышленных технологий и управления»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский колледж сервиса»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ГККП «Актюбинский автомобильно - дорожный колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">КГУ «Актюбинский областной специальный комплекс «школа- интернат- колледж» для детей с нарушениями слуха и зрения»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">КГУ «Областная специализированная школа-интернат-колледж олимпийского резерва имени Есет батыра»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">КГУ «Актюбинский многопрофильный колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ТОО «Высший колледж АРУ имени К.Жубанова»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Актюбинский технико-технологический колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ТОО «Баишев Высший Медицинский колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Актюбинский строительно–монтажный колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Актюбинский индустриально-профессиональный колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ТОО "Школа-Гимназия и Колледж КАЗГЮУ"</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ТОО «Актюбинский колледж АО «Казахская академия транспорта и коммуникаций им. М.Тынышпаева»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ "Европейский высший колледж экономики, бизнеса и права"</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ТОО «Актюбинский многопрофильный колледж АГУ Тарлан»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Многопрофильный Высший колледж «Болашак»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ колледж «Дуние»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">Негосударственное независимое некоммер-ческое образовательное учреждение «Экономико-правовой колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Актюбинский педагогический колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ТОО «Актюбинский гуманитарно-технический универсальный мультипрофильный колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Многопрофильный колледж «Рауан» (Нет контингента)</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Мугалжарский гуманитарно-технический колледж»</div>
-                                </a>
-                        </Link>
-
-                        <Link href={'/aqtobe/noninfo'}>
-                                <a className="card">
-                                        <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                                        <div className="name">ЧУ «Колледж медресе Актобе»</div>
-                                </a>
-                        </Link>
-
-                </div>
+            <h2 className="header-title">Выберите колледж</h2>
+            <div className="cards">
+                <article className="card">
+                    <div className="card-image">
+                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                    </div>
+                    <div className="card-title">
+                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                    </div>
+                    <Link href={"/aqtobe/ahpc"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                    </div>
+                    <div className="card-title">
+                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                    </div>
+                    <Link href={"/aqtobe/ahpc"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                    </div>
+                    <div className="card-title">
+                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                    </div>
+                    <Link href={"/aqtobe/ahpc"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                    </div>
+                    <div className="card-title">
+                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                    </div>
+                    <Link href={"/aqtobe/ahpc"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                    </div>
+                    <div className="card-title">
+                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                    </div>
+                    <Link href={"/aqtobe/ahpc"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+            </div>
         </div>
         //     1<div>ГККП «Актюбинский гуманитарный колледж»</div>
         //  2   <div>ГККП «Актюбинский колледж транспорта, коммуникаций и новых технологий»</div>
@@ -262,6 +109,223 @@ function Aqtobe(props) {
         //
         //
         // </div>
+
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский гуманитарный колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский колледж транспорта, коммуникаций и новых технологий»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/ahpc'}>
+        //     <a className="card">
+        //         <img src={ahpc.src} alt=""/>
+        //         <div className="name">ГКП «Актюбинский Высший политехнический колледж» на ПХВ</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский Высший сельскохозяйственный колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой» на ПХВ</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский музыкальный колледж им. А. Жубанова»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский колледж связи и электротехники»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский колледж строительства и бизнеса»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский колледж промышленных технологий и управления»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский колледж сервиса»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ГККП «Актюбинский автомобильно - дорожный колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">КГУ «Актюбинский областной специальный комплекс «школа- интернат- колледж» для детей с нарушениями слуха и зрения»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">КГУ «Областная специализированная школа-интернат-колледж олимпийского резерва имени Есет батыра»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">КГУ «Актюбинский многопрофильный колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ТОО «Высший колледж АРУ имени К.Жубанова»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Актюбинский технико-технологический колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ТОО «Баишев Высший Медицинский колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Актюбинский строительно–монтажный колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Актюбинский индустриально-профессиональный колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ТОО "Школа-Гимназия и Колледж КАЗГЮУ"</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ТОО «Актюбинский колледж АО «Казахская академия транспорта и коммуникаций им. М.Тынышпаева»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ "Европейский высший колледж экономики, бизнеса и права"</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ТОО «Актюбинский многопрофильный колледж АГУ Тарлан»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Многопрофильный Высший колледж «Болашак»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ колледж «Дуние»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">Негосударственное независимое некоммер-ческое образовательное учреждение «Экономико-правовой колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Актюбинский педагогический колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ТОО «Актюбинский гуманитарно-технический универсальный мультипрофильный колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Многопрофильный колледж «Рауан» (Нет контингента)</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Мугалжарский гуманитарно-технический колледж»</div>
+        //     </a>
+        // </Link>
+        //
+        // <Link href={'/aqtobe/noninfo'}>
+        //     <a className="card">
+        //         <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
+        //         <div className="name">ЧУ «Колледж медресе Актобе»</div>
+        //     </a>
+        // </Link>
     );
 }
 

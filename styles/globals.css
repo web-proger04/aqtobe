@@ -2,12 +2,13 @@
 
 html,
 body {
-    padding: 0;
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     color: #212121;
 }
 
@@ -23,7 +24,7 @@ p {
 
 .container {
     max-width: 1320px;
-    padding: 0 25px;
+    padding: 130px 15px 0 15px;
     margin: 0 auto;
 }
 
@@ -33,21 +34,33 @@ ul {
     list-style: none;
 }
 
+svg {
+    max-width: 100%;
+}
+
+.header-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+
 
 /* Aqtobe */
 .oblasti {
     display: flex;
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     justify-content: space-between;
+
 }
 
 .map {
-    width: 40vw;
-}
-
-.oblasti .map h2 {
-    text-align: center;
+    flex: 0 1 50%;
 }
 
 path {
@@ -64,40 +77,54 @@ path {
 }
 
 .oblastInfo {
-    width: 550px;
+    padding: 50px 0 0 0;
+    flex: 0 1 50%;
 }
 
 .oblastInfo h4 {
-    font-weight: 600;
-    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0 0 40px 0;
 }
 
 .oblastInfo h3 {
-    font-weight: 800;
-    font-size: 24px;
-    margin-top: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0 0 21px 0;
 }
 
 .miniInfo {
-    width: 550px;
     background-color: #fff;
-    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
-    border-radius: 10px;
-    margin-top: 10vh;
-    border: 2px solid #2F50C3;
     padding: 20px;
+    box-shadow: 0px 0px 10px rgba(47, 80, 196, 0.3);
+    border-radius: 30px;
 }
 
 .miniInfo .name {
-    font-weight: 600;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
     font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 0 7px 0;
 }
 
 .miniInfo .km {
-    font-weight: 500;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 20px;
+    color: #000000;
 }
 
 .zone:active {
@@ -139,31 +166,183 @@ path {
 }
 
 .cards {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 20px;
 }
-
-.cards .card {
+.card {
+    display: grid;
+    grid-template: max-content 1fr max-content / 1fr;
+    text-align: start;
+    justify-items: start;
+    padding: 22px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(47, 80, 196, 0.3);
+    border-radius: 30px;
+    transition: transform 300ms ease;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+.card-image {
+    height: 216px;
+    width: 100%;
+    margin: 0px 0 20px 0;
+}
+.card-image img {
     display: block;
-    width: 350px;
-    background-color: #ffffff;
-    border: 1px solid #b2b2b2;
-    border-radius: 6px;
-    padding: 20px;
-    transition: 0.1s;
-    margin: 25px 15px;
-}
-
-.cards .card img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
-
-.cards .card .name {
-    width: 300px;
+.card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 600;
-    margin: 10px 5px 0;
-    text-align: left;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0 0 40px 0;
 }
-
+.card-button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    outline: 2px solid #2ABC6F;
+    color: #2ABC6F;
+    border-radius: 3px;
+    transition: all 350ms ease;
+}
+.card-button:hover, .card-button:active, .card-button:focus {
+    outline: none;
+    background-color: #2ABC6F;
+    color: #fff;
+}
 /* End Cards */
+
+
+/*info-college*/
+.info-college {
+    max-width: 935px;
+    margin: 0 auto;
+}
+.info-college__item{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(47, 80, 196, 0.3);
+}
+.info-college__item_no-flex {
+    display: block;
+}
+.info-college__item:not(:last-child) {
+    margin: 0 0 30px 0;
+}
+.info-college__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.info-college__title:not(:last-child) {
+    margin: 0 0 20px 0;
+}
+.info-college__title_vinous {
+    color: #7A2640;
+}
+.info-college__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.info-college__subtitle:not(:last-child) {
+    margin: 0 0 5px 0;
+}
+.info-college__image_college {
+    max-width: 458px;
+    height: 270px;
+}
+.info-college__image_director {
+    max-width: 263px;
+    height: 345px;
+}
+.info-college__image{
+    flex-shrink: 0;
+    margin: 0 40px 0 0;
+}
+.info-college__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.info-college__list{
+
+}
+.info-college__list:not(:last-child){
+    margin: 0 0 20px 0;
+}
+.info-college__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.info-college__text:not(:last-child){
+    margin: 0 0 10px 0;
+}
+.info-college__text_bold{
+    font-weight: 600;
+}
+/*info-college*/
+
+
+/*adaptive*/
+@media all and (max-width: 830px) {
+    .info-college__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .info-college__image {
+        max-width: none;
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+}
+@media all and (max-width: 800px) {
+    .oblasti {
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 580px) {
+    .container {
+        padding-top: 110px;
+    }
+    .header-title {
+        margin-bottom: 50px;
+        font-size: 27px;
+        line-height: 33px;
+    }
+    .cards {
+        grid-auto-rows: max-content;
+        grid-template-columns: 1fr;
+    }
+    .info-college__item, .card {
+        padding: 20px;
+    }
+}
