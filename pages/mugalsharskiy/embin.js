@@ -6,7 +6,8 @@ import Link from "next/link";
 import college from "../../public/img/colleges/embin.png";
 import director from "../../public/img/directors/embinDirector.png";
 
-function Kpek(props) {
+Embin.title="КГУ «Эмбинский колледж сферы услуг»"
+function Embin(props) {
     return (
         <div className="collegeContainer">
             <h2 className="header-title">
@@ -195,4 +196,4 @@ function Kpek(props) {
     );
 }
 
-export default Kpek;
+export default Embin;

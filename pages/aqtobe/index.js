@@ -2,11 +2,12 @@ import React from 'react';
 import Link from "next/link";
 import ahpc from '../../public/img/colleges/ahpc.png'
 
+Aqtobe.title="Актобе"
 function Aqtobe(props) {
 
     return (
         <div className="colleges">
-            <h2 className="header-title">Выберите колледж</h2>
+            <h2 className="header-title">Актобе</h2>
             <div className="cards">
                 <article className="card">
                     <div className="card-image">

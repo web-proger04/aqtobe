@@ -2,6 +2,7 @@ import React from 'react';
 import college from "../../public/img/colleges/alga-college.png"
 import director from "../../public/img/directors/alga-college.png"
 
+AlgaCollege.title="ГККП «Алгинский индустриально-технический колледж»"
 export default function AlgaCollege(props) {
     return (
         <div className="collegeContainer">
