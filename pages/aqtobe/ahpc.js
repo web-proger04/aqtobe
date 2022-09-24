@@ -6,8 +6,8 @@ import Link from "next/link";
 import ahpc from "../../public/img/colleges/ahpc.png";
 import ahpcDirector from "../../public/img/directors/ahpcDirector.png"
 
-Kpek.title = "AHPC" // вот так добавляешь название странице
-function Kpek(props) {
+Ahpc.title = "AHPC" // вот так добавляешь название странице
+function Ahpc(props) {
     return (
         <div className="collegeContainer">
             <h2 className="header-title">
@@ -238,7 +238,7 @@ function Kpek(props) {
                     </h3>
                     <ul className="info-college__list">
                         <li className="info-college__text">
-                            <span className="info-college__text_bold">Вычислительная техника и информационные сети,</span>
+                            <span className="info-college__text_bold">Вычислительная техника и информационные сети</span>
                         </li>
                         <li className="info-college__text">
                             <span className="info-college__text_bold">Мехатроника</span>

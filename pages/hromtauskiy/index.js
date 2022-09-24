@@ -6,14 +6,21 @@ function Hromtauskiy(props) {
     return (
         <div>
             <div className="colleges">
-                <h2>Выберите колледж</h2>
+                <h2 className="header-title">Выберите колледж</h2>
                 <div className="cards">
-                    <Link href={'/hromtauskiy/hromtau-hgtk'}>
-                        <a className="card">
-                            <img src={hgtk.src} alt=""/>
-                            <div className="name">ГККП «Хромтауский горно- технический высший колледж»</div>
-                        </a>
-                    </Link>
+                    <article className="card">
+                        <div className="card-image">
+                            <img src={hgtk.src} alt="ГККП «Хромтауский горно-технический высший колледж»"/>
+                        </div>
+                        <div className="card-title">
+                            ГККП «Хромтауский горно-технический высший колледж»
+                        </div>
+                        <Link href={"/hromtauskiy/hromtau-hgtk"}>
+                            <a className="card-button">
+                                Перейти
+                            </a>
+                        </Link>
+                    </article>
                 </div>
             </div>
         </div>

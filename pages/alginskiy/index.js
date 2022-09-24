@@ -1,19 +1,25 @@
 import React from 'react';
 import Link from "next/link";
+import algaCollege from "../../public/img/colleges/alga-college.png"
 
 function Alginskiy(props) {
     return (
-        <div>
-            <div className="colleges">
-                <h2>Выберите колледж</h2>
-                <div className="cards">
-                    <Link href={'/alginskiy/alga-college'}>
-                        <a className="card">
-                            <img src={"https://redbook28.ru/wp-content/uploads/2021/09/net-foto.jpg"} alt=""/>
-                            <div className="name">ГККП «Алгинский индустриально- технический колледж»</div>
+        <div className="colleges">
+            <h2 className="header-title">Выберите колледж</h2>
+            <div className="cards">
+                <article className="card">
+                    <div className="card-image">
+                        <img src={algaCollege.src} alt="ГККП «Алгинский индустриально-технический колледж»"/>
+                    </div>
+                    <div className="card-title">
+                        ГККП «Алгинский индустриально-технический колледж»
+                    </div>
+                    <Link href={"/alginskiy/alga-college"}>
+                        <a className="card-button">
+                            Перейти
                         </a>
                     </Link>
-                </div>
+                </article>
             </div>
         </div>
     );
