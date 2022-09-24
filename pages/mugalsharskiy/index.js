@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import kpek from '../../public/img/colleges/kpek.png'
 import ahpc from "../../public/img/colleges/ahpc.png";
+import embin from "../../public/img/colleges/embin.png"
 
 function Mugalsharskiy(props) {
     return (
@@ -11,12 +12,25 @@ function Mugalsharskiy(props) {
             <div className="cards">
                 <article className="card">
                     <div className="card-image">
-                        <img src={ahpc.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                        <img src={kpek.src} alt="ГККП «Кандыагашский промышленно-экономический колледж»"/>
                     </div>
                     <div className="card-title">
-                        ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                        ГККП «Кандыагашский промышленно-экономический колледж»
                     </div>
-                    <Link href={"/aqtobe/ahpc"}>
+                    <Link href={"/mugalsharskiy/kpek"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={embin.src} alt="КГУ «Эмбинский колледж сферы услуг»"/>
+                    </div>
+                    <div className="card-title">
+                        КГУ «Эмбинский колледж сферы услуг»
+                    </div>
+                    <Link href={"/mugalsharskiy/embin"}>
                         <a className="card-button">
                             Перейти
                         </a>
