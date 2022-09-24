@@ -6,12 +6,12 @@ export default function AlgaCollege(props) {
     return (
         <div className="collegeContainer">
             <h2 className="header-title">
-                ГКП «Актюбинский Высший политехнический колледж» на ПХВ
+                ГККП «Алгинский индустриально-технический колледж»
             </h2>
             <ul className="info-college">
                 <li className="info-college__item">
                     <div className="info-college__image info-college__image_college">
-                        <img src={college.src} alt="ГКП «Актюбинский Высший политехнический колледж» на ПХВ"/>
+                        <img src={college.src} alt="ГККП «Алгинский индустриально-технический колледж»"/>
                     </div>
                     <ul className="info-college__list">
                         <li className="info-college__text">
