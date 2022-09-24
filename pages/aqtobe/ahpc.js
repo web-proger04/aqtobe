@@ -6,7 +6,7 @@ import Link from "next/link";
 import ahpc from "../../public/img/colleges/ahpc.png";
 import ahpcDirector from "../../public/img/directors/ahpcDirector.png"
 
-Ahpc.title = "AHPC" // вот так добавляешь название странице
+Ahpc.title = "ГКП «Актюбинский Высший политехнический колледж» на ПХВ" // вот так добавляешь название странице
 function Ahpc(props) {
     return (
         <div className="collegeContainer">

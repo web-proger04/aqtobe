@@ -6,6 +6,7 @@ import Link from "next/link";
 import hgtk from "../../public/img/colleges/hromtau-hgtk.png";
 import hgtkDirector from "../../public/img/directors/hromtau-hgtkDirector.png";
 
+HrmotauHgtk.title="ГККП «Хромтауский горно-технический высший колледж»"
 export default function HrmotauHgtk(props) {
     return (
         <div className="collegeContainer">

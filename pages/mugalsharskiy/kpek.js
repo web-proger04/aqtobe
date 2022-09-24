@@ -6,6 +6,7 @@ import Link from "next/link";
 import college from "../../public/img/colleges/kpek.png";
 import director from "../../public/img/directors/kpekDirector.png";
 
+Kpek.title="ГККП «Кандыагашский промышленно-экономический колледж»"
 function Kpek(props) {
     return (
         <div className="collegeContainer">

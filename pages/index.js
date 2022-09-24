@@ -1,7 +1,7 @@
 import {useRouter} from "next/router";
 import {useState} from "react";
 
-
+Home.title="Главная"
 export default function Home() {
     const router = useRouter()
     const [inHover, setHover] = useState(true);

@@ -5,10 +5,11 @@ import kpek from '../../public/img/colleges/kpek.png'
 import ahpc from "../../public/img/colleges/ahpc.png";
 import embin from "../../public/img/colleges/embin.png"
 
+Mugalsharskiy.title="Мугалжарский район"
 function Mugalsharskiy(props) {
     return (
         <div className="colleges">
-            <h2 className="header-title">Выберите колледж</h2>
+            <h2 className="header-title">Мугалжарский район</h2>
             <div className="cards">
                 <article className="card">
                     <div className="card-image">

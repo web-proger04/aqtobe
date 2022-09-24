@@ -2,10 +2,11 @@ import React from 'react';
 import Link from "next/link";
 import algaCollege from "../../public/img/colleges/alga-college.png"
 
+Alginskiy.title="Алгинский район"
 function Alginskiy(props) {
     return (
         <div className="colleges">
-            <h2 className="header-title">Выберите колледж</h2>
+            <h2 className="header-title">Алгинский район</h2>
             <div className="cards">
                 <article className="card">
                     <div className="card-image">
