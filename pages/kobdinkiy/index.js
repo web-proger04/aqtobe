@@ -12,10 +12,10 @@ function Kobdinkiy(props) {
                 <div className="cards">
                     <article className="card">
                         <div className="card-image">
-                            <img src={kobda.src} alt="КГУ «Бадамшинский агротехнический колледж»"/>
+                            <img src={kobda.src} alt="ГККП «Кобдинский многопрофильный колледж»"/>
                         </div>
                         <div className="card-title">
-                            КГУ «Бадамшинский агротехнический колледж»
+                            ГККП «Кобдинский многопрофильный колледж»
                         </div>
                         <Link href={"/kobdinkiy/kobda"}>
                             <a className="card-button">

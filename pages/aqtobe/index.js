@@ -87,10 +87,10 @@ function Aqtobe(props) {
                 </article>
                 <article className="card">
                     <div className="card-image">
-                        <img src={aktkNt.src} alt="ГККП «Актюбинский гуманитарный колледж»"/>
+                        <img src={aktkNt.src} alt="ГККП «Актюбинский колледж транспорта, коммуникаций и новых технологий»"/>
                     </div>
                     <div className="card-title">
-                        ГККП «Актюбинский гуманитарный колледж»
+                        ГККП «Актюбинский колледж транспорта, коммуникаций и новых технологий»
                     </div>
                     <Link href={"/aqtobe/aktk-nt"}>
                         <a className="card-button">

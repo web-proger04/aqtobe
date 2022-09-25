@@ -1,22 +1,22 @@
 import React from 'react';
 import Link from "next/link";
-import ShalkarskiyCollege from '../../public/img/colleges/shalkar.png'
+import uilskiyCollege from '../../public/img/colleges/agrarka-uil.png'
 
-Shalkarskiy.title = "Шалкарский район"
-function Shalkarskiy(props) {
+uilskiy.title = "Уилский район"
+function uilskiy(props) {
     return (
         <div>
             <div className="colleges">
-                <h2 className="header-title">Шалкарский район</h2>
+                <h2 className="header-title">Уилский район</h2>
                 <div className="cards">
                     <article className="card">
                         <div className="card-image">
-                            <img src={ShalkarskiyCollege.src} alt="КГУ «Шалкарский аграрно-технический колледж»"/>
+                            <img src={uilskiyCollege.src} alt="ГККП «Уилский аграрный колледж»"/>
                         </div>
                         <div className="card-title">
-                            КГУ «Шалкарский аграрно-технический колледж»
+                            ГККП «Уилский аграрный колледж»
                         </div>
-                        <Link href={"/shalkarskiy/shalkarcollege"}>
+                        <Link href={"/uilskiy/uilskiy"}>
                             <a className="card-button">
                                 Перейти
                             </a>
@@ -28,4 +28,4 @@ function Shalkarskiy(props) {
     );
 }
 
-export default Shalkarskiy;
+export default uilskiy;
