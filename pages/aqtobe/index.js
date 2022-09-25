@@ -13,6 +13,9 @@ import acce from "../../public/img/colleges/acce.png"
 import ssch from "../../public/img/colleges/ssch.png"
 import akptu from "../../public/img/colleges/akptu.png"
 import esetbatyr from "../../public/img/colleges/esetbatyr.png"
+import uka from "../../public/img/colleges/uka.png";
+
+
 Aqtobe.title = "Актобе"
 
 function Aqtobe(props) {
@@ -188,6 +191,19 @@ function Aqtobe(props) {
                         КГУ «Областная специализированная школа-интернат-колледж олимпийского резерва имени Есет батыра»
                     </div>
                     <Link href={"/aqtobe/esetbatyr"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={uka.src} alt="КГУ  «Актюбинский многопрофильный  колледж»"/>
+                    </div>
+                    <div className="card-title">
+                        КГУ  «Актюбинский многопрофильный  колледж»
+                    </div>
+                    <Link href={"/aqtobe/uka"}>
                         <a className="card-button">
                             Перейти
                         </a>
