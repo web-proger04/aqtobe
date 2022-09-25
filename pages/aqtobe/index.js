@@ -8,7 +8,11 @@ import aadk from "../../public/img/colleges/aadk.png";
 import aktkNt from "../../public/img/colleges/aktk-nt.png";
 import aktmuzkol from "../../public/img/colleges/aktmuzkol.png"
 import aktobeAgk from "../../public/img/colleges/aktobe_agk.png"
-
+import aktcolser from "../../public/img/colleges/aktcolser.png"
+import acce from "../../public/img/colleges/acce.png"
+import ssch from "../../public/img/colleges/ssch.png"
+import akptu from "../../public/img/colleges/akptu.png"
+import esetbatyr from "../../public/img/colleges/esetbatyr.png"
 Aqtobe.title = "Актобе"
 
 function Aqtobe(props) {
@@ -119,6 +123,71 @@ function Aqtobe(props) {
                         ГККП «Актюбинский гуманитарный колледж»
                     </div>
                     <Link href={"/aqtobe/aktobe-agk"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={aktcolser.src} alt="ГККП «Актюбинский колледж сервиса»"/>
+                    </div>
+                    <div className="card-title">
+                        ГККП «Актюбинский колледж сервиса»
+                    </div>
+                    <Link href={"/aqtobe/aktcolser"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={acce.src} alt="ГККП «Актюбинский колледж связи и электротехники»"/>
+                    </div>
+                    <div className="card-title">
+                        ГККП «Актюбинский колледж связи и электротехники»
+                    </div>
+                    <Link href={"/aqtobe/acce"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={ssch.src} alt="Актюбинская областная специальная (коррекционная) школа-интернат-колледж для детей с нарушением слуха"/>
+                    </div>
+                    <div className="card-title">
+                        Актюбинская областная специальная (коррекционная) школа-интернат-колледж для детей с нарушением слуха
+                    </div>
+                    <Link href={"/aqtobe/ssch"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={akptu.src} alt="«Актюбинский колледж промышленных технологий и управления» МКҚК"/>
+                    </div>
+                    <div className="card-title">
+                        «Актюбинский колледж промышленных технологий и управления» МКҚК
+                    </div>
+                    <Link href={"/aqtobe/akptu"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={esetbatyr.src} alt="КГУ «Областная специализированная школа-интернат-колледж олимпийского резерва имени Есет батыра»"/>
+                    </div>
+                    <div className="card-title">
+                        КГУ «Областная специализированная школа-интернат-колледж олимпийского резерва имени Есет батыра»
+                    </div>
+                    <Link href={"/aqtobe/esetbatyr"}>
                         <a className="card-button">
                             Перейти
                         </a>
