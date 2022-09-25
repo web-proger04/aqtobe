@@ -3,10 +3,14 @@ import Link from "next/link";
 import ahpc from '../../public/img/colleges/ahpc.png'
 import ashk from "../../public/img/colleges/ashk-college.png";
 import aksib from "../../public/img/colleges/aksid.png"
-import ahmc from  "../../public/img/colleges/ahmc.png"
+import ahmc from "../../public/img/colleges/ahmc.png"
 import aadk from "../../public/img/colleges/aadk.png";
+import aktkNt from "../../public/img/colleges/aktk-nt.png";
+import aktmuzkol from "../../public/img/colleges/aktmuzkol.png"
+import aktobeAgk from "../../public/img/colleges/aktobe_agk.png"
 
-Aqtobe.title="Актобе"
+Aqtobe.title = "Актобе"
+
 function Aqtobe(props) {
 
     return (
@@ -28,7 +32,8 @@ function Aqtobe(props) {
                 </article>
                 <article className="card">
                     <div className="card-image">
-                        <img src={ashk.src} alt="ГККП Актюбинский высший сельскохозяйственный колледж имени Шыганак Берсиева"/>
+                        <img src={ashk.src}
+                             alt="ГККП Актюбинский высший сельскохозяйственный колледж имени Шыганак Берсиева"/>
                     </div>
                     <div className="card-title">
                         ГККП "Актюбинский высший сельскохозяйственный колледж имени Шыганак Берсиева"
@@ -54,10 +59,12 @@ function Aqtobe(props) {
                 </article>
                 <article className="card">
                     <div className="card-image">
-                        <img src={ahmc.src} alt="ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой»»"/>
+                        <img src={ahmc.src}
+                             alt="ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой»»"/>
                     </div>
                     <div className="card-title">
-                        ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой» на ПХВ
+                        ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой» на
+                        ПХВ
                     </div>
                     <Link href={"/aqtobe/ahmc"}>
                         <a className="card-button">
@@ -78,19 +85,53 @@ function Aqtobe(props) {
                         </a>
                     </Link>
                 </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={aktkNt.src} alt="ГККП «Актюбинский гуманитарный колледж»"/>
+                    </div>
+                    <div className="card-title">
+                        ГККП «Актюбинский гуманитарный колледж»
+                    </div>
+                    <Link href={"/aqtobe/aktk-nt"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={aktmuzkol.src} alt="ГККП «Актюбинский колледж им. А.Жубанова»"/>
+                    </div>
+                    <div className="card-title">
+                        ГККП «Актюбинский колледж им. А.Жубанова»
+                    </div>
+                    <Link href={"/aqtobe/aktmuzkol"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
+                <article className="card">
+                    <div className="card-image">
+                        <img src={aktobeAgk.src} alt="ГККП «Актюбинский гуманитарный колледж»"/>
+                    </div>
+                    <div className="card-title">
+                        ГККП «Актюбинский гуманитарный колледж»
+                    </div>
+                    <Link href={"/aqtobe/aktobe-agk"}>
+                        <a className="card-button">
+                            Перейти
+                        </a>
+                    </Link>
+                </article>
             </div>
         </div>
         //     1<div>ГККП «Актюбинский гуманитарный колледж»</div>
         //  2   <div>ГККП «Актюбинский колледж транспорта, коммуникаций и новых технологий»</div>
-        //   3  <div>ГКП «Актюбинский Высший политехнический колледж» на ПХВ</div>
-        //    4 <div>ГККП «Актюбинский Высший сельскохозяйственный колледж»</div>
-        //     5<div>ГКП «Актюбинский Высший медицинский колледж имени героя Советского Союза Маншук Маметовой» на ПХВ</div>
         //6     <div>ГККП «Актюбинский музыкальный колледж им. А. Жубанова»</div>
         // 7    <div>ГККП «Актюбинский колледж связи и электротехники»</div>
-        //  8   <div>ГККП «Актюбинский колледж строительства и бизнеса»</div>
         //   9  <div>ГККП «Актюбинский колледж промышленных технологий и управления»</div>
         //    10 <div>ГККП «Актюбинский колледж сервиса»</div>
-        //11     <div>ГККП «Актюбинский автомобильно - дорожный колледж»</div>
         //  12   <div>КГУ «Актюбинский областной специальный комплекс «школа- интернат- колледж» для детей с нарушениями слуха и зрения »</div>
         //    13 <div>КГУ «Областная специализированная школа-интернат-колледж олимпийского резерва имени Есет батыра»</div>
         //14     <div>КГУ «Актюбинский многопрофильный колледж»</div>
