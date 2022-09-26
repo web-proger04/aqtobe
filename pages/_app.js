@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import '../styles/college.scss'
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"
 import Head from "next/head";
 
 function MyApp({Component, pageProps}) {
@@ -8,11 +9,12 @@ function MyApp({Component, pageProps}) {
         <Head>
             <title>{Component.title}</title>
         </Head>
-        <div>
+        <div className="grid-wrapper">
             <Navbar/>
             <div className="container">
                 <Component {...pageProps} />
             </div>
+            <Footer/>
         </div>
     </>
 

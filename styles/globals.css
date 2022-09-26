@@ -3,6 +3,7 @@
 html,
 body {
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
 }
 
 * {
@@ -10,6 +11,10 @@ body {
     margin: 0;
     box-sizing: border-box;
     color: #212121;
+}
+
+#__next {
+    height: 100%;
 }
 
 a {
@@ -24,8 +29,10 @@ p {
 
 .container {
     max-width: 1320px;
-    padding: 130px 15px 0 15px;
+    width: 100%;
+    padding: 130px 15px 60px 15px;
     margin: 0 auto;
+    flex: 1 1 auto;
 }
 
 ul {
@@ -37,6 +44,13 @@ ul {
 svg {
     max-width: 100%;
 }
+
+.grid-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .header-title {
     font-family: 'Montserrat';
@@ -315,6 +329,19 @@ path {
 }
 /*info-college*/
 
+/*footer*/
+.footer {
+    padding: 22px 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #333;
+}
+/*footer*/
 
 /*adaptive*/
 @media all and (max-width: 830px) {
